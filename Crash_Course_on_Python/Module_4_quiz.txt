@@ -1,0 +1,54 @@
+MOdule 4 quiz
+
+1
+def format_address(address_string):
+  # Declare variables
+
+  # Separate the address string into parts
+  split_address = address_string.split()
+  house_number, street_name = split_address[0], " ".join(split_address[1:])
+
+  
+  # Return the formatted string  
+  return f"house number {house_number} on street named {street_name}"
+  
+2
+def highlight_word(sentence, word):
+	return sentence.replace(word, word.upper())
+
+3
+def combine_lists(list1, list2):
+  # Generate a new list containing the elements of list2
+  # Followed by the elements of list1 in reverse order
+  return list2 + list1[::-1]
+
+
+4
+def squares(start, end):
+	return [n*n for n in range(start, end+1)]
+	
+5
+def car_listing(car_prices):
+result = ""
+for car in car_prices:
+result += f"{car} costs {car_prices[car]} dollars\n"
+  return result
+  
+6
+def combine_guests(guests1, guests2):
+  # Combine both dictionaries into one, with each key listed 
+  # only once, and the value from guests1 taking precedence
+  return {**guests2, **guests1}
+Rorys_guests = { "Adam":2, "Brenda":3, "David":1, "Jose":3, "Charlotte":2, "Terry":1, "Robert":4}
+Taylors_guests = { "David":4, "Nancy":1, "Robert":2, "Adam":1, "Samantha":3, "Chris":5}
+
+7
+from collections import Counter
+
+def count_letters(text):
+  return  {key: value for key, value in Counter(text.lower()).items() if key.isalnum()}
+  
+8
+pop t us
+
+9
