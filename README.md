@@ -1,1 +1,1 @@
-Repo for scipts created while taking [Google's IT Automation with Python Professional Certificate](https://www.coursera.org/professional-certificates/google-it-automation) on [Coursera](https://www.coursera.org/).
+Repo for scripts created while taking [Google's IT Automation with Python Professional Certificate](https://www.coursera.org/professional-certificates/google-it-automation) on [Coursera](https://www.coursera.org/).
